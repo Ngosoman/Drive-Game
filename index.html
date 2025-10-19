@@ -716,7 +716,6 @@
             new DataRequest(files[i]["start"], files[i]["end"], files[i]["audio"] || 0).open("GET", files[i]["filename"])
           }
 
-
           function processPackageData(arrayBuffer) {
             assert(arrayBuffer, "Loading data file failed.");
             assert(arrayBuffer instanceof ArrayBuffer, "bad input to processPackageData");
